@@ -326,6 +326,14 @@
     [
       "db6b8362-1493-4107-af7d-a8faca8bb053",
       "EKG"
+    ],
+    [
+      "97361d84-0d16-4cc2-a1ed-9553d6782fe1",
+      "EEGMux"
+    ],
+    [
+      "cf59c111-9919-42fe-8d40-4ac656da2bcc",
+      "IMU"
     ]
   ],
   "text_variables": {}
