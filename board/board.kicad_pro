@@ -334,6 +334,14 @@
     [
       "cf59c111-9919-42fe-8d40-4ac656da2bcc",
       "IMU"
+    ],
+    [
+      "700ac4ae-7ca4-47c3-af59-3fb66df08366",
+      "ACD"
+    ],
+    [
+      "0133fba6-5aa6-4171-8a60-95549c0db33b",
+      "PowerSupply"
     ]
   ],
   "text_variables": {}
