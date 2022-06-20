@@ -342,6 +342,14 @@
     [
       "0133fba6-5aa6-4171-8a60-95549c0db33b",
       "PowerSupply"
+    ],
+    [
+      "55fc5f4e-c0ad-4a73-bba2-08017d05c52a",
+      "SD card"
+    ],
+    [
+      "74ede922-cf97-4388-88e5-d8df7b864a4a",
+      "Pulsoxymeter"
     ]
   ],
   "text_variables": {}
