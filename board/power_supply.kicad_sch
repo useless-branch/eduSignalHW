@@ -1368,7 +1368,8 @@
     (uuid f9800733-e8bd-46ab-b20c-57869b9b710e)
   )
 
-  (text "TODO: Further Power conditioning?" (at 170.18 101.6 0)
+  (text "TODO: Further Power conditioning?\nFerrit Bead mit Dämpfung bei Tackt-F von ESP\nVor Linearregler? Danach? Domi-> Keine Ahnung"
+    (at 170.18 101.6 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 78d50ca8-3048-4c51-a9bf-02af150b65a8)
   )
