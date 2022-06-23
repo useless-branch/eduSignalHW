@@ -1739,7 +1739,7 @@
     (property "Reference" "FB?" (id 0) (at 222.25 125.6918 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "FerriteBead_Small" (id 1) (at 222.25 128.2318 0)
+    (property "Value" "BLM15BB" (id 1) (at 222.25 128.2318 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 217.932 127 90)
