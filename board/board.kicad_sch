@@ -791,6 +791,11 @@
     (uuid f302764b-c6e0-4356-850d-7bbcb1ec4c9b)
   )
 
+  (text "TODO:\nRTC? BOB?\nClock: 2,048 MHz (EKG und ADC)" (at 96.52 96.52 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid f99ce4fb-0b1b-478e-b638-4266145ceff1)
+  )
+
   (label "I2C1_SCK" (at 147.32 87.63 180)
     (effects (font (size 1.27 1.27)) (justify right bottom))
     (uuid 05105ede-fad4-4f5d-a812-78b15bf6f8df)
