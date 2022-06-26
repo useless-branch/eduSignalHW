@@ -249,7 +249,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 17f5e018-da78-467a-bbb8-ba000ad77b23)
     (property "Reference" "J16" (id 0) (at 140.97 85.09 0))
-    (property "Value" "Conn_01x04" (id 1) (at 140.97 87.63 0))
+    (property "Value" "OXY" (id 1) (at 140.97 87.63 0))
     (property "Footprint" "" (id 2) (at 140.97 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )

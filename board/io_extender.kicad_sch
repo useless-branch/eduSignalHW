@@ -366,6 +366,11 @@
     (uuid e809307b-2587-4bf1-b74f-cde820f7a7ee)
   )
 
+  (text "Adress: (default)\nWrite 0x40\nRead  0x41" (at 133.35 107.95 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 3f3ced91-ac79-46d4-ad70-824b63694b3a)
+  )
+
   (hierarchical_label "P2" (shape bidirectional) (at 184.15 88.9 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 034dc68b-9e68-47bb-b410-573d102c52ed)
