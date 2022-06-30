@@ -1164,6 +1164,7 @@
     )
   )
 
+
   (junction (at 53.34 163.83) (diameter 0) (color 0 0 0 0)
     (uuid 098ddbc4-4129-4a86-be78-f908fef0a85f)
   )
@@ -1738,6 +1739,10 @@
     (uuid f9800733-e8bd-46ab-b20c-57869b9b710e)
   )
 
+  (text "Disable Power?" (at 207.01 74.93 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 2b969925-b9d1-4e7b-ae61-0787c62a0b6b)
+  )
   (text "I2C devices power switching" (at 13.97 152.4 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 678e8850-5318-4a1c-98ba-3943ed09a249)
@@ -1745,6 +1750,10 @@
   (text "Battery and polarity protection" (at 16.51 74.93 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid cc7c89d6-e256-41ed-8140-a95da4524901)
+  )
+  (text "Use FSML075 or FSML100 instead?" (at 17.78 53.34 90)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid dbd8caf5-59ba-448e-8f7a-bdff95cd30ab)
   )
 
   (hierarchical_label "3V3SW" (shape output) (at 53.34 185.42 270)
