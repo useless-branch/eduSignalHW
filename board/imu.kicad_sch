@@ -135,7 +135,7 @@
         (effects (font (size 1.27 1.27)) hide)
       )
       (symbol "BHI160_0_0"
-        (pin free line (at -13.335 -27.305 90) (length 2.54) hide
+        (pin no_connect line (at -9.525 -31.115 180) (length 2.54) hide
           (name "" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
@@ -155,19 +155,19 @@
           (name "VDD" (effects (font (size 1.27 1.27))))
           (number "13" (effects (font (size 1.27 1.27))))
         )
-        (pin free line (at -13.335 -27.305 90) (length 2.54) hide
+        (pin no_connect line (at -9.525 -33.655 180) (length 2.54) hide
           (name "" (effects (font (size 1.27 1.27))))
           (number "14" (effects (font (size 1.27 1.27))))
         )
-        (pin free line (at -13.335 -27.305 90) (length 2.54) hide
+        (pin no_connect line (at -9.525 -32.385 180) (length 2.54) hide
           (name "" (effects (font (size 1.27 1.27))))
           (number "15" (effects (font (size 1.27 1.27))))
         )
-        (pin free line (at -13.335 -27.305 90) (length 2.54) hide
+        (pin no_connect line (at -9.525 -34.925 180) (length 2.54) hide
           (name "" (effects (font (size 1.27 1.27))))
           (number "16" (effects (font (size 1.27 1.27))))
         )
-        (pin free line (at -13.335 -27.305 90) (length 2.54) hide
+        (pin no_connect line (at -9.525 -36.195 180) (length 2.54) hide
           (name "" (effects (font (size 1.27 1.27))))
           (number "17" (effects (font (size 1.27 1.27))))
         )
@@ -175,11 +175,11 @@
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "18" (effects (font (size 1.27 1.27))))
         )
-        (pin free line (at -13.335 -27.305 90) (length 2.54) hide
+        (pin no_connect line (at -9.525 -37.465 180) (length 2.54) hide
           (name "" (effects (font (size 1.27 1.27))))
           (number "19" (effects (font (size 1.27 1.27))))
         )
-        (pin free line (at -13.335 -27.305 90) (length 2.54) hide
+        (pin no_connect line (at -9.525 -38.735 180) (length 2.54) hide
           (name "" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
@@ -191,7 +191,7 @@
           (name "ASDA" (effects (font (size 1.27 1.27))))
           (number "21" (effects (font (size 1.27 1.27))))
         )
-        (pin free line (at -13.335 -27.305 90) (length 2.54) hide
+        (pin no_connect line (at -9.525 -40.005 180) (length 2.54) hide
           (name "RESV4" (effects (font (size 1.27 1.27))))
           (number "22" (effects (font (size 1.27 1.27))))
         )
@@ -207,15 +207,15 @@
           (name "GPIO1" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
-        (pin free line (at -13.335 -27.305 90) (length 2.54) hide
+        (pin no_connect line (at -9.525 -41.275 180) (length 2.54) hide
           (name "RESV2" (effects (font (size 1.27 1.27))))
           (number "4" (effects (font (size 1.27 1.27))))
         )
-        (pin free line (at -13.335 -27.305 90) (length 2.54) hide
+        (pin no_connect line (at -9.525 -42.545 180) (length 2.54) hide
           (name "RESV3" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
         )
-        (pin free line (at -13.335 -27.305 90) (length 2.54) hide
+        (pin no_connect line (at -9.525 -43.815 180) (length 2.54) hide
           (name "" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
         )

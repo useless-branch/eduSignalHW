@@ -867,7 +867,7 @@
     (uuid 03de16d3-27e9-408c-b174-f22cf230c3bc)
     (property "Reference" "U4" (id 0) (at 120.65 58.42 0))
     (property "Value" "MCP3564RT" (id 1) (at 120.65 60.96 0))
-    (property "Footprint" "Package_SO:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_EP3.4x6.5mm_Mask2.75x3.43mm" (id 2) (at 109.22 69.85 0)
+    (property "Footprint" "ownLib:HTSSOP-20-1EP_4.4x6.5mm_P0.65mm_3.4x6.5mm_Mask2.75x3.43mm" (id 2) (at 109.22 69.85 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://www.mouser.de/datasheet/2/268/MCP3561_2_4_Family_Data_Sheet_DS20006181C-2257924.pdf" (id 3) (at 109.22 69.85 0)

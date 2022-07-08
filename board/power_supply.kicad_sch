@@ -572,13 +572,13 @@
       )
     )
     (symbol "Regulator_Linear:LM1117-5.0" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "U" (id 0) (at -3.81 3.175 0)
+      (property "Reference" "U5" (id 0) (at 0 7.62 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "LM1117-5.0" (id 1) (at 0 3.175 0)
-        (effects (font (size 1.27 1.27)) (justify left))
+      (property "Value" "LM1117-5.0" (id 1) (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
       )
-      (property "Footprint" "" (id 2) (at 0 0 0)
+      (property "Footprint" "Package_TO_SOT_SMD:SOT-223" (id 2) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf" (id 3) (at 0 0 0)
@@ -592,6 +592,12 @@
       )
       (property "ki_fp_filters" "SOT?223* TO?263* TO?252* TO?220*" (id 6) (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "LM1117-5.0_0_0"
+        (pin power_out line (at 7.62 0 180) (length 2.54) hide
+          (name "VO" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
       )
       (symbol "LM1117-5.0_0_1"
         (rectangle (start -5.08 -5.08) (end 5.08 1.905)
@@ -782,11 +788,11 @@
           (name "OUT" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
         )
-        (pin free line (at -2.54 1.27 0) (length 2.54) hide
+        (pin no_connect line (at -1.27 1.27 0) (length 2.54) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
-        (pin free line (at -2.54 1.27 0) (length 2.54) hide
+        (pin no_connect line (at -1.27 0 0) (length 2.54) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "3" (effects (font (size 1.27 1.27))))
         )
@@ -798,11 +804,11 @@
           (name "EN" (effects (font (size 1.27 1.27))))
           (number "5" (effects (font (size 1.27 1.27))))
         )
-        (pin free line (at -2.54 1.27 0) (length 2.54) hide
+        (pin no_connect line (at -1.27 -1.27 0) (length 2.54) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "6" (effects (font (size 1.27 1.27))))
         )
-        (pin free line (at -2.54 1.27 0) (length 2.54) hide
+        (pin no_connect line (at -1.27 -2.54 0) (length 2.54) hide
           (name "NC" (effects (font (size 1.27 1.27))))
           (number "7" (effects (font (size 1.27 1.27))))
         )
@@ -1163,7 +1169,6 @@
       )
     )
   )
-
 
   (junction (at 53.34 163.83) (diameter 0) (color 0 0 0 0)
     (uuid 098ddbc4-4129-4a86-be78-f908fef0a85f)
@@ -1983,6 +1988,7 @@
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm1117.pdf" (id 3) (at 121.92 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
+    (pin "4" (uuid 59e56037-3f1d-421c-b246-fbdfd7499d17))
     (pin "1" (uuid b11bdb94-b917-49ad-a44b-83769c1621ff))
     (pin "2" (uuid 98926a28-9b53-4649-b35f-35f9811ed320))
     (pin "3" (uuid 111dd9b9-a8a0-4013-a8f3-5367986d1344))
