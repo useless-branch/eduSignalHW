@@ -4,6 +4,15 @@
 
   (paper "A4")
 
+  (title_block
+    (title "eduSignal")
+    (date "2022-07-14")
+    (rev "1")
+    (company "Hochschule Pforzheim")
+    (comment 1 "Patrick Hanner")
+    (comment 2 "Biosignal development board")
+  )
+
   (lib_symbols
     (symbol "Device:C_Small" (pin_numbers hide) (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.254 1.778 0)
