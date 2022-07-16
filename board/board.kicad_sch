@@ -561,8 +561,6 @@
   (no_connect (at 34.29 82.55) (uuid 77c2cf5e-cbe3-4c07-ad0f-fdaf45489452))
   (no_connect (at 34.29 87.63) (uuid 77c2cf5e-cbe3-4c07-ad0f-fdaf45489453))
   (no_connect (at 34.29 80.01) (uuid 77c2cf5e-cbe3-4c07-ad0f-fdaf45489454))
-  (no_connect (at 60.96 83.82) (uuid cc3f31cb-3691-4932-b631-0fc43a9f0b86))
-  (no_connect (at 60.96 86.36) (uuid cc3f31cb-3691-4932-b631-0fc43a9f0b87))
   (no_connect (at 154.94 146.05) (uuid dd94029b-f0e3-467d-a172-7477fc1745d5))
   (no_connect (at 67.31 161.29) (uuid fd18a943-ca7d-41b2-9127-bd79d1a5c6ef))
 
@@ -1634,6 +1632,22 @@
     (pin "9" (uuid 4aef7c3a-01bf-40bf-8980-c4a5100a555a))
   )
 
+  (symbol (lib_id "Connector:TestPoint") (at 60.96 86.36 270) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 85b4cc89-46fa-4af7-b26b-710647c4e01f)
+    (property "Reference" "TP28" (id 0) (at 73.66 86.36 90))
+    (property "Value" "TX" (id 1) (at 66.04 86.36 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (id 2) (at 60.96 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 60.96 91.44 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 38a486f4-b86e-4c93-9c77-7f6bf5059753))
+  )
+
   (symbol (lib_id "power:+3V3") (at 46.99 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 89c1498f-24b7-4d8e-8881-bf303f27295c)
@@ -1820,6 +1834,22 @@
     )
     (pin "1" (uuid 15d78f1b-5482-41a4-ad20-79b00542cf32))
     (pin "2" (uuid 956a4064-c380-4be9-a2d0-f639e7363b42))
+  )
+
+  (symbol (lib_id "Connector:TestPoint") (at 60.96 83.82 270) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid f26cb318-07cc-4c67-ba18-2440c1b06691)
+    (property "Reference" "TP27" (id 0) (at 73.66 83.82 90))
+    (property "Value" "RX" (id 1) (at 66.04 83.82 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm" (id 2) (at 60.96 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 60.96 88.9 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 3bd5ec36-76d2-4872-b4e0-166e08bf508a))
   )
 
   (sheet (at 228.6 135.89) (size 12.7 11.43) (fields_autoplaced)
@@ -2334,9 +2364,6 @@
     (path "/2055161f-a421-43e7-aac1-c28f4d183a6b/ce40efe8-4724-422a-97f9-2fbfc8cb8fcd"
       (reference "#PWR012") (unit 1) (value "GND") (footprint "")
     )
-    (path "/db6b8362-1493-4107-af7d-a8faca8bb053/b59172a8-bb63-4b8b-b5a0-5ee97f8f8b8e"
-      (reference "#PWR013") (unit 1) (value "+3V3") (footprint "")
-    )
     (path "/db6b8362-1493-4107-af7d-a8faca8bb053/b85c92b6-b689-426f-8425-c21cdee76e0f"
       (reference "#PWR014") (unit 1) (value "+5VA") (footprint "")
     )
@@ -2544,6 +2571,15 @@
     (path "/55fc5f4e-c0ad-4a73-bba2-08017d05c52a/88810b35-44bf-4587-9eb6-d4a4b5a13ea1"
       (reference "#PWR0103") (unit 1) (value "GND") (footprint "")
     )
+    (path "/db6b8362-1493-4107-af7d-a8faca8bb053/91a47725-5879-4993-a200-8231dec661e4"
+      (reference "#PWR0104") (unit 1) (value "+5VA") (footprint "")
+    )
+    (path "/0133fba6-5aa6-4171-8a60-95549c0db33b/5623fab3-1a5a-4a56-8338-e3362c22289d"
+      (reference "#PWR0105") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0133fba6-5aa6-4171-8a60-95549c0db33b/483397ea-f23d-4fc0-ac16-6af5e68fc91f"
+      (reference "#PWR0106") (unit 1) (value "GND") (footprint "")
+    )
     (path "/0133fba6-5aa6-4171-8a60-95549c0db33b/276cd6c7-4f5d-4216-ade6-7c20f595ba32"
       (reference "BT1") (unit 1) (value "5x AA / 6V 1200mAh") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical")
     )
@@ -2696,6 +2732,12 @@
     )
     (path "/2055161f-a421-43e7-aac1-c28f4d183a6b/4c9c3122-30fb-46bb-b9f0-79cf95f34629"
       (reference "C50") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/0133fba6-5aa6-4171-8a60-95549c0db33b/b8c15e0f-2759-4d9e-9d3c-876dd7e890a8"
+      (reference "C51") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/0133fba6-5aa6-4171-8a60-95549c0db33b/3d4b0cf5-2ded-45b7-988f-5f4ecb4de5fc"
+      (reference "C52") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/0133fba6-5aa6-4171-8a60-95549c0db33b/a887f37d-e480-4561-962e-f97c36c75a03"
       (reference "D1") (unit 1) (value "MMBZ15VALT1G") (footprint "Package_TO_SOT_SMD:SOT-23")
@@ -3005,6 +3047,12 @@
     )
     (path "/55fc5f4e-c0ad-4a73-bba2-08017d05c52a/488ab9a8-1244-4cd1-a808-db213f3a5785"
       (reference "TP26") (unit 1) (value "PU2") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/f26cb318-07cc-4c67-ba18-2440c1b06691"
+      (reference "TP27") (unit 1) (value "RX") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
+    )
+    (path "/85b4cc89-46fa-4af7-b26b-710647c4e01f"
+      (reference "TP28") (unit 1) (value "TX") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
     )
     (path "/2055161f-a421-43e7-aac1-c28f4d183a6b/ead0bbdd-06cd-41c0-9c2d-fff62be86454"
       (reference "TP29") (unit 1) (value "IN1") (footprint "TestPoint:TestPoint_Pad_D1.0mm")
