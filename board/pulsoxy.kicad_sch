@@ -216,7 +216,7 @@
     (uuid db14ac60-05ca-4ced-ba90-a2ab1bdf1b6e)
   )
 
-  (text "Address:\nRead: AE\nWrite: AF" (at 153.67 93.98 0)
+  (text "Address:\nRead: AF\nWrite: AE" (at 153.67 93.98 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 63e775d5-6288-4931-bb83-10129c1e08ee)
   )
